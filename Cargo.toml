@@ -1,0 +1,14 @@
+[package]
+name = "pokemon-guess-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.4"
+reqwest = "0.11.9"
+web-sys = "0.3.56"
+yew = "0.19.3"
+getrandom = { version = "0.2.4", features = ["js"] }
+wasm-bindgen-futures = "0.4.29"
+serde_json = "1.0.78"
+gloo = { version = "0.6.0", features = ["futures"] }
